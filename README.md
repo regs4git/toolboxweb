@@ -1,4 +1,4 @@
-# ToolBoxWeb — Beta v0.3.0 (Fase 2)
+# ToolBoxWeb — Beta v0.3.1 (Fase 2)
 
 Catálogo responsivo de 109 ferramentas e websites, baseado na taxonomia e catálogo da Fase 1 v0.1.1.
 
@@ -37,7 +37,7 @@ O catálogo é `data/tools.json`, a classificação em `data/taxonomy.json`. Con
 
 ## Limitações conhecidas
 
-Os atributos comerciais do catálogo permanecem por verificar. O armazenamento local pode ser eliminado pelo browser; exporta os favoritos para cópia de segurança. A pesquisa não usa IA.
+Os atributos comerciais e técnicos foram pré-classificados; apenas os campos explicitamente documentados com fonte oficial são considerados verificados. O armazenamento local pode ser eliminado pelo browser; exporta os favoritos para cópia de segurança. A pesquisa não usa IA.
 
 ## Alterações v0.3.0
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_version": "0.1.1",
+  "catalog_version": "0.1.2",
   "tools": [
     {
       "id": "open-library",
@@ -22,7 +22,7 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
+      "pricing": "free",
       "license": "unknown",
       "offline": "unknown",
       "self_hosted": "unknown",
@@ -31,7 +31,14 @@
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "project-gutenberg",
@@ -53,16 +60,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
+      "pricing": "free",
       "license": "unknown",
       "offline": "unknown",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "doaj",
@@ -84,16 +98,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
+      "pricing": "free",
       "license": "unknown",
       "offline": "unknown",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "google-search",
@@ -113,16 +134,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "open-culture",
@@ -145,16 +173,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "wolfram-alpha",
@@ -175,16 +210,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "elicit",
@@ -206,16 +248,25 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "official_source",
+        "source_url": "https://elicit.com/pricing",
+        "verified_fields": [
+          "pricing"
+        ],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "consensus",
@@ -237,16 +288,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "chatgpt",
@@ -268,16 +326,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "claude",
@@ -299,16 +364,25 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "official_source",
+        "source_url": "https://claude.com/pricing",
+        "verified_fields": [
+          "pricing"
+        ],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "photopea",
@@ -328,16 +402,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "canva",
@@ -362,16 +443,25 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "official_source",
+        "source_url": "https://www.canva.com/pricing/",
+        "verified_fields": [
+          "pricing"
+        ],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "remove-bg",
@@ -391,16 +481,25 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "official_source",
+        "source_url": "https://www.remove.bg/pricing/",
+        "verified_fields": [
+          "pricing"
+        ],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "tinypng",
@@ -420,16 +519,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "cleanup-pictures",
@@ -449,16 +555,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "runway",
@@ -481,16 +594,25 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "official_source",
+        "source_url": "https://runway.com/pricing",
+        "verified_fields": [
+          "pricing"
+        ],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "github",
@@ -513,16 +635,25 @@
       ],
       "top": true,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "official_source",
+        "source_url": "https://github.com/pricing",
+        "verified_fields": [
+          "pricing"
+        ],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "carbon",
@@ -544,16 +675,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "phind",
@@ -576,16 +714,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "regex101",
@@ -605,16 +750,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "code-beautify",
@@ -636,16 +788,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "json-formatter",
@@ -665,16 +824,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "explainshell",
@@ -694,16 +860,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "shots-so",
@@ -725,16 +898,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "alternativeto",
@@ -754,16 +934,23 @@
       ],
       "top": true,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "have-i-been-pwned",
@@ -783,16 +970,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "virustotal",
@@ -812,16 +1006,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "tos-dr",
@@ -841,16 +1042,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "temp-mail",
@@ -870,16 +1078,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "proton-mail",
@@ -899,16 +1114,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "file-io",
@@ -928,16 +1150,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "wetransfer",
@@ -957,16 +1186,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "radio-garden",
@@ -988,16 +1224,23 @@
       ],
       "top": true,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "music-map",
@@ -1017,16 +1260,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "tunefind",
@@ -1046,16 +1296,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "spotify",
@@ -1077,16 +1334,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "mynoise",
@@ -1106,16 +1370,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "dictation-io",
@@ -1137,16 +1408,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "deepl",
@@ -1168,16 +1446,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "justwatch",
@@ -1197,16 +1482,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "internet-archive",
@@ -1231,16 +1523,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
+      "pricing": "free",
       "license": "unknown",
       "offline": "unknown",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "similarsites",
@@ -1260,16 +1559,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "summarize-tech",
@@ -1291,16 +1597,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "raindrop-io",
@@ -1320,16 +1633,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "downdetector",
@@ -1349,16 +1669,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "tineye",
@@ -1378,16 +1705,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "fast-com",
@@ -1407,16 +1741,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "pdf24-tools",
@@ -1438,16 +1779,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "ilovepdf",
@@ -1469,16 +1817,25 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "official_source",
+        "source_url": "https://www.ilovepdf.com/pricing",
+        "verified_fields": [
+          "pricing"
+        ],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "speedtest",
@@ -1498,16 +1855,23 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "google-scholar",
@@ -1527,16 +1891,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "semantic-scholar",
@@ -1556,16 +1927,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "openalex",
@@ -1587,16 +1965,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "open_source",
       "offline": "unknown",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "zotero",
@@ -1617,16 +2002,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
       "self_hosted": "unknown",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "ollama",
@@ -1646,16 +2038,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "open-webui",
@@ -1678,16 +2077,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "anythingllm",
@@ -1710,16 +2116,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "llama-cpp",
@@ -1739,16 +2152,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "whisper",
@@ -1771,16 +2191,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "codeberg",
@@ -1802,16 +2229,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "forgejo",
@@ -1834,16 +2268,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "hoppscotch",
@@ -1863,16 +2304,25 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "official_source",
+        "source_url": "https://github.com/hoppscotch/hoppscotch/blob/main/LICENSE",
+        "verified_fields": [
+          "license"
+        ],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "bruno",
@@ -1892,16 +2342,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "transform-tools",
@@ -1923,16 +2380,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "json-crack",
@@ -1954,8 +2418,8 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "open_source",
       "offline": "unknown",
       "self_hosted": "unknown",
       "account_required": "unknown",
@@ -1963,7 +2427,14 @@
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "excalidraw",
@@ -1984,8 +2455,8 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "open_source",
       "offline": "unknown",
       "self_hosted": "unknown",
       "account_required": "unknown",
@@ -1993,7 +2464,14 @@
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "mermaid",
@@ -2014,8 +2492,8 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "open_source",
       "offline": "unknown",
       "self_hosted": "unknown",
       "account_required": "unknown",
@@ -2023,7 +2501,14 @@
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "shellcheck",
@@ -2045,16 +2530,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "open_source",
       "offline": "unknown",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "devdocs",
@@ -2074,16 +2566,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "open_source",
       "offline": "unknown",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "penpot",
@@ -2106,16 +2605,25 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "official_source",
+        "source_url": "https://github.com/penpot/penpot",
+        "verified_fields": [
+          "license"
+        ],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "gimp",
@@ -2135,16 +2643,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "inkscape",
@@ -2164,16 +2679,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "krita",
@@ -2195,16 +2717,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "squoosh",
@@ -2225,16 +2754,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "blender",
@@ -2257,16 +2793,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "kdenlive",
@@ -2287,16 +2830,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "bitwarden",
@@ -2316,16 +2866,25 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "freemium",
+      "license": "mixed",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "official_source",
+        "source_url": "https://github.com/bitwarden/self-host/blob/main/LICENSE",
+        "verified_fields": [
+          "license"
+        ],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "keepassxc",
@@ -2345,16 +2904,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "simplelogin",
@@ -2374,8 +2940,8 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "open_source",
       "offline": "unknown",
       "self_hosted": "unknown",
       "account_required": "unknown",
@@ -2383,7 +2949,14 @@
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "mullvad",
@@ -2403,16 +2976,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
+      "pricing": "paid",
       "license": "unknown",
       "offline": "unknown",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Serviço VPN pago; confirmar condições actuais no website oficial."
+      }
     },
     {
       "id": "privacy-guides",
@@ -2432,7 +3012,7 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
+      "pricing": "free",
       "license": "unknown",
       "offline": "unknown",
       "self_hosted": "unknown",
@@ -2441,7 +3021,14 @@
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "firefox",
@@ -2461,16 +3048,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "ublock-origin",
@@ -2490,16 +3084,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "stirling-pdf",
@@ -2526,16 +3127,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "freemium",
+      "license": "mixed",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "libreoffice",
@@ -2558,16 +3166,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "qpdf",
@@ -2587,16 +3202,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "ocrmypdf",
@@ -2618,16 +3240,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "pandoc",
@@ -2648,16 +3277,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "swisstransfer",
@@ -2677,16 +3313,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "wormhole",
@@ -2706,16 +3349,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "localsend",
@@ -2735,16 +3385,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "open_source",
       "offline": "unknown",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "nextcloud",
@@ -2767,16 +3424,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "freemium",
+      "license": "mixed",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "musicbrainz",
@@ -2796,16 +3460,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "open_source",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "listenbrainz",
@@ -2827,8 +3498,8 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "open_source",
       "offline": "unknown",
       "self_hosted": "unknown",
       "account_required": "unknown",
@@ -2836,7 +3507,14 @@
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "last-fm",
@@ -2856,16 +3534,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "freemium",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "jellyfin",
@@ -2888,16 +3573,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "navidrome",
@@ -2920,16 +3612,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "radio-browser",
@@ -2949,16 +3648,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "open_source",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "languagetool",
@@ -2980,16 +3686,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "freemium",
+      "license": "mixed",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "argos-translate",
@@ -3009,16 +3722,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
       "self_hosted": "unknown",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "whisper-cpp",
@@ -3041,16 +3761,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "yes",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "karakeep",
@@ -3074,16 +3801,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "freemium",
+      "license": "mixed",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "wallabag",
@@ -3105,16 +3839,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "archivebox",
@@ -3136,16 +3877,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "changedetection-io",
@@ -3168,16 +3916,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "freemium",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "open-source-alternative",
@@ -3197,16 +3952,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "cloudflare-speed-test",
@@ -3227,16 +3989,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
+      "pricing": "free",
+      "license": "proprietary",
       "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "librespeed",
@@ -3259,16 +4028,23 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     },
     {
       "id": "uptime-kuma",
@@ -3291,16 +4067,23 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "unknown",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "partial",
+      "self_hosted": "yes",
       "account_required": "unknown",
       "verification": {
         "status": "pending",
         "checked_at": null
       },
-      "added_at": "2026-10-19"
+      "added_at": "2026-10-19",
+      "classification": {
+        "reviewed_at": "2026-10-19",
+        "method": "editorial_provisional",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+      }
     }
   ]
 }
