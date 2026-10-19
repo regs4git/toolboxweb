@@ -33,3 +33,6 @@ Na integração PWA, usar os três JSON como um conjunto consistente: descarrega
 
 ## Grupos de filtros (v0.1.1)
 Cada domínio define `groups` com `feature_ids`. O motor de filtros deve gerar a interface a partir destes dados, sem grupos codificados em JavaScript. Categorias vazias ficam ocultas por defeito. A IA deve preservar IDs de grupos e funcionalidades e executar `python3 validate.py` após cada alteração.
+
+## Revisão best effort
+`verification.status=editorial_reviewed` significa revisão editorial, não confirmação oficial. Não tratar `unknown` como `no`.

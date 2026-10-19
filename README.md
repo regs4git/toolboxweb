@@ -1,4 +1,4 @@
-# ToolBoxWeb — Beta v0.3.1 (Fase 2)
+# ToolBoxWeb — Beta v0.3.3 (Fase 2)
 
 Catálogo responsivo de 109 ferramentas e websites, baseado na taxonomia e catálogo da Fase 1 v0.1.1.
 

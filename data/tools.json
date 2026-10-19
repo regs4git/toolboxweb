@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_version": "0.1.2",
+  "catalog_version": "0.1.4",
   "tools": [
     {
       "id": "open-library",
@@ -23,21 +23,43 @@
       "top": false,
       "source_group": "original",
       "pricing": "free",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "license": "open_source",
+      "offline": "no",
+      "self_hosted": "yes",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -61,21 +83,43 @@
       "top": false,
       "source_group": "original",
       "pricing": "free",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "license": "mixed",
+      "offline": "partial",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -100,20 +144,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "offline": "no",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "unknown",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -136,20 +202,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -175,20 +263,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -212,20 +322,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -255,17 +387,37 @@
       "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "official_source",
-        "source_url": "https://elicit.com/pricing",
-        "verified_fields": [
-          "pricing"
-        ],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -295,15 +447,37 @@
       "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -330,18 +504,40 @@
       "license": "proprietary",
       "offline": "no",
       "self_hosted": "no",
-      "account_required": "yes",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -371,17 +567,37 @@
       "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "official_source",
-        "source_url": "https://claude.com/pricing",
-        "verified_fields": [
-          "pricing"
-        ],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -404,20 +620,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "partial",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -450,17 +688,37 @@
       "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "official_source",
-        "source_url": "https://www.canva.com/pricing/",
-        "verified_fields": [
-          "pricing"
-        ],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -483,22 +741,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "official_source",
-        "source_url": "https://www.remove.bg/pricing/",
-        "verified_fields": [
-          "pricing"
-        ],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -521,20 +799,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -557,20 +857,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -601,17 +923,37 @@
       "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "official_source",
-        "source_url": "https://runway.com/pricing",
-        "verified_fields": [
-          "pricing"
-        ],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -639,20 +981,40 @@
       "license": "proprietary",
       "offline": "no",
       "self_hosted": "no",
-      "account_required": "yes",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "official_source",
-        "source_url": "https://github.com/pricing",
-        "verified_fields": [
-          "pricing"
-        ],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "official",
+          "source_url": "https://github.com/pricing"
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -676,21 +1038,43 @@
       "top": false,
       "source_group": "original",
       "pricing": "free",
-      "license": "proprietary",
-      "offline": "unknown",
+      "license": "open_source",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -721,15 +1105,37 @@
       "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -750,22 +1156,44 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "free",
+      "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "partial",
       "self_hosted": "no",
-      "account_required": "no",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -788,22 +1216,44 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "free",
+      "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -824,22 +1274,44 @@
       ],
       "top": false,
       "source_group": "original",
-      "pricing": "free",
+      "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -861,21 +1333,43 @@
       "top": false,
       "source_group": "original",
       "pricing": "free",
-      "license": "proprietary",
-      "offline": "unknown",
+      "license": "open_source",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -900,20 +1394,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -936,20 +1452,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -972,20 +1510,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1008,20 +1568,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1044,20 +1626,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1080,20 +1684,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1116,20 +1742,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1152,20 +1800,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1188,20 +1858,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1226,20 +1918,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1262,20 +1976,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1298,20 +2034,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1336,20 +2094,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "no",
+      "offline": "partial",
       "self_hosted": "no",
       "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1372,20 +2152,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "partial",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1410,20 +2212,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1448,20 +2272,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1484,20 +2330,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "no",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1524,21 +2392,43 @@
       "top": false,
       "source_group": "original",
       "pricing": "free",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "no",
+      "license": "mixed",
+      "offline": "partial",
+      "self_hosted": "no",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1561,20 +2451,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1599,20 +2511,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1635,20 +2569,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "no",
+      "offline": "partial",
       "self_hosted": "no",
       "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1671,20 +2627,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1707,20 +2685,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1743,20 +2743,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1781,20 +2803,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1819,22 +2863,42 @@
       "source_group": "original",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "official_source",
-        "source_url": "https://www.ilovepdf.com/pricing",
-        "verified_fields": [
-          "pricing"
-        ],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": null,
+        "verified_fields": [],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1857,20 +2921,42 @@
       "source_group": "original",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1893,20 +2979,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1929,20 +3037,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -1967,20 +3097,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "offline": "no",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2002,22 +3154,44 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "free",
+      "pricing": "freemium",
       "license": "open_source",
-      "offline": "partial",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "offline": "yes",
+      "self_hosted": "no",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2045,15 +3219,39 @@
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
-        "source_url": null,
-        "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": "https://github.com/ollama/ollama/blob/main/LICENSE",
+        "verified_fields": [
+          "license"
+        ],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "official",
+          "source_url": "https://github.com/ollama/ollama/blob/main/LICENSE"
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2078,21 +3276,45 @@
       "top": true,
       "source_group": "curated",
       "pricing": "free",
-      "license": "open_source",
+      "license": "mixed",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
-        "source_url": null,
-        "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": "https://docs.openwebui.com/license/",
+        "verified_fields": [
+          "license"
+        ],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "official",
+          "source_url": "https://docs.openwebui.com/license/"
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2116,22 +3338,48 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "free",
+      "pricing": "freemium",
       "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
-        "source_url": null,
-        "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/TERMS_SELF_HOSTED.md",
+        "verified_fields": [
+          "license",
+          "self_hosted",
+          "offline"
+        ],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "official",
+          "source_url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/TERMS_SELF_HOSTED.md"
+        },
+        "offline": {
+          "status": "official",
+          "source_url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/TERMS_SELF_HOSTED.md"
+        },
+        "self_hosted": {
+          "status": "official",
+          "source_url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/TERMS_SELF_HOSTED.md"
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2159,15 +3407,37 @@
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2198,15 +3468,37 @@
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2231,20 +3523,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "partial",
-      "self_hosted": "yes",
-      "account_required": "unknown",
+      "offline": "no",
+      "self_hosted": "no",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2272,18 +3586,40 @@
       "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2304,24 +3640,47 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "free",
+      "pricing": "freemium",
       "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "official_source",
-        "source_url": "https://github.com/hoppscotch/hoppscotch/blob/main/LICENSE",
+        "method": "best_effort_editorial",
+        "source_url": "https://github.com/hoppscotch/hoppscotch",
         "verified_fields": [
-          "license"
+          "license",
+          "self_hosted"
         ],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "official",
+          "source_url": "https://github.com/hoppscotch/hoppscotch"
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "official",
+          "source_url": "https://github.com/hoppscotch/hoppscotch"
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2342,22 +3701,44 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "free",
-      "license": "open_source",
+      "pricing": "freemium",
+      "license": "mixed",
       "offline": "yes",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2381,21 +3762,43 @@
       "top": false,
       "source_group": "curated",
       "pricing": "free",
-      "license": "proprietary",
-      "offline": "unknown",
+      "license": "open_source",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2420,20 +3823,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "offline": "no",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2455,22 +3880,44 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "free",
+      "pricing": "freemium",
       "license": "open_source",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "offline": "partial",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2494,20 +3941,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "offline": "yes",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2532,20 +4001,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "offline": "yes",
+      "self_hosted": "yes",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2568,20 +4059,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "offline": "yes",
+      "self_hosted": "yes",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2605,24 +4118,47 @@
       ],
       "top": true,
       "source_group": "curated",
-      "pricing": "free",
+      "pricing": "freemium",
       "license": "open_source",
-      "offline": "partial",
+      "offline": "no",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "official_source",
+        "method": "best_effort_editorial",
         "source_url": "https://github.com/penpot/penpot",
         "verified_fields": [
-          "license"
+          "license",
+          "self_hosted"
         ],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "official",
+          "source_url": "https://penpot.app/pricing"
+        },
+        "license": {
+          "status": "official",
+          "source_url": "https://github.com/penpot/penpot"
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "official",
+          "source_url": "https://github.com/penpot/penpot"
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2646,19 +4182,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2682,19 +4240,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2720,19 +4300,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2757,19 +4359,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "partial",
-      "self_hosted": "unknown",
+      "self_hosted": "yes",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2796,19 +4420,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2833,19 +4479,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2870,20 +4538,42 @@
       "license": "mixed",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "official_source",
-        "source_url": "https://github.com/bitwarden/self-host/blob/main/LICENSE",
+        "method": "best_effort_editorial",
+        "source_url": "https://github.com/bitwarden/server/blob/master/LICENSE.txt",
         "verified_fields": [
           "license"
         ],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "official",
+          "source_url": "https://github.com/bitwarden/server/blob/master/LICENSE.txt"
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2907,19 +4597,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2942,20 +4654,42 @@
       "source_group": "curated",
       "pricing": "freemium",
       "license": "open_source",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "offline": "no",
+      "self_hosted": "yes",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -2977,21 +4711,43 @@
       "top": false,
       "source_group": "curated",
       "pricing": "paid",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "license": "mixed",
+      "offline": "no",
+      "self_hosted": "no",
       "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Serviço VPN pago; confirmar condições actuais no website oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3013,21 +4769,43 @@
       "top": false,
       "source_group": "curated",
       "pricing": "free",
-      "license": "unknown",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "license": "open_source",
+      "offline": "no",
+      "self_hosted": "yes",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3051,19 +4829,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "partial",
-      "self_hosted": "unknown",
-      "account_required": "no",
+      "self_hosted": "no",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3086,20 +4886,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "partial",
-      "self_hosted": "unknown",
+      "offline": "yes",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3131,18 +4953,43 @@
       "license": "mixed",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
-        "source_url": null,
-        "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": "https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LICENSE",
+        "verified_fields": [
+          "license",
+          "self_hosted"
+        ],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "official",
+          "source_url": "https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LICENSE"
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "official",
+          "source_url": "https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LICENSE"
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3169,19 +5016,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "self_hosted": "no",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3205,19 +5074,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3243,19 +5134,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3280,19 +5193,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3315,20 +5250,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3349,22 +5306,44 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "freemium",
-      "license": "proprietary",
-      "offline": "unknown",
+      "pricing": "free",
+      "license": "open_source",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "official",
+          "source_url": "https://github.com/magic-wormhole/magic-wormhole"
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3387,20 +5366,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "unknown",
-      "self_hosted": "unknown",
+      "offline": "yes",
+      "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3425,21 +5426,46 @@
       "top": false,
       "source_group": "curated",
       "pricing": "freemium",
-      "license": "mixed",
+      "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
-        "source_url": null,
-        "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": "https://github.com/nextcloud/server/blob/master/contribute/HowToApplyALicense.md",
+        "verified_fields": [
+          "license",
+          "self_hosted"
+        ],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "official",
+          "source_url": "https://github.com/nextcloud/server/blob/master/contribute/HowToApplyALicense.md"
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "official",
+          "source_url": "https://github.com/nextcloud/server/blob/master/contribute/HowToApplyALicense.md"
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3462,20 +5488,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "yes",
-      "account_required": "no",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3500,20 +5548,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "unknown",
-      "self_hosted": "unknown",
-      "account_required": "unknown",
+      "offline": "no",
+      "self_hosted": "yes",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3536,20 +5606,42 @@
       "source_group": "curated",
       "pricing": "freemium",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3577,18 +5669,40 @@
       "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3616,18 +5730,40 @@
       "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3650,20 +5786,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "yes",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3690,18 +5848,40 @@
       "license": "mixed",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3725,19 +5905,41 @@
       "pricing": "free",
       "license": "open_source",
       "offline": "yes",
-      "self_hosted": "unknown",
+      "self_hosted": "yes",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3768,15 +5970,37 @@
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3802,21 +6026,46 @@
       "top": true,
       "source_group": "curated",
       "pricing": "freemium",
-      "license": "mixed",
+      "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
-        "source_url": null,
-        "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "method": "best_effort_editorial",
+        "source_url": "https://github.com/karakeep-app/karakeep",
+        "verified_fields": [
+          "license",
+          "self_hosted"
+        ],
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "official",
+          "source_url": "https://github.com/karakeep-app/karakeep"
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "official",
+          "source_url": "https://github.com/karakeep-app/karakeep"
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3839,22 +6088,44 @@
       ],
       "top": false,
       "source_group": "curated",
-      "pricing": "free",
+      "pricing": "freemium",
       "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3881,18 +6152,40 @@
       "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3920,18 +6213,40 @@
       "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "optional",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3954,20 +6269,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
-      "account_required": "unknown",
+      "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -3991,20 +6328,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "proprietary",
-      "offline": "unknown",
+      "offline": "no",
       "self_hosted": "no",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -4030,20 +6389,42 @@
       "source_group": "curated",
       "pricing": "free",
       "license": "open_source",
-      "offline": "partial",
+      "offline": "no",
       "self_hosted": "yes",
       "account_required": "no",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     },
     {
@@ -4071,18 +6452,40 @@
       "license": "open_source",
       "offline": "partial",
       "self_hosted": "yes",
-      "account_required": "unknown",
+      "account_required": "yes",
       "verification": {
         "status": "pending",
-        "checked_at": null
+        "checked_at": "2026-10-19"
       },
       "added_at": "2026-10-19",
       "classification": {
         "reviewed_at": "2026-10-19",
-        "method": "editorial_provisional",
+        "method": "best_effort_editorial",
         "source_url": null,
         "verified_fields": [],
-        "note": "Outros atributos são estimativas editoriais; confirmar no site oficial."
+        "note": "Classificação prática best effort; preços e licenças podem mudar. Não é uma auditoria jurídica."
+      },
+      "field_evidence": {
+        "pricing": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "license": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "offline": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "self_hosted": {
+          "status": "editorial",
+          "source_url": null
+        },
+        "account_required": {
+          "status": "editorial",
+          "source_url": null
+        }
       }
     }
   ]

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "catalog_version": "0.1.2",
-  "app_version_target": "0.3.1",
+  "catalog_version": "0.1.4",
+  "app_version_target": "0.3.3",
   "published_at": "2026-10-19",
   "tools_count": 109,
   "change_summary": {
     "added": 0,
-    "updated": 109,
+    "updated": 32,
     "removed": 0
   },
-  "notes": "Revisão de preços, licença, offline, self-hosted e necessidade de conta. Fontes oficiais documentadas para subconjunto; restantes valores editoriais provisórios."
+  "notes": "Revisão editorial best effort de todas as 109 entradas; sem necessidade de verificação manual pelo utilizador."
 }
