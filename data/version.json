@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "catalog_version": "0.1.1",
+  "app_version_target": "1.0.0",
+  "published_at": "2026-10-19",
+  "tools_count": 109,
+  "change_summary": {
+    "added": 0,
+    "updated": 109,
+    "removed": 0
+  },
+  "notes": "Revisão editorial de taxonomia, domínios secundários, grupos de filtros e termos de pesquisa. Verificação online das propriedades dos sites continua pendente."
+}

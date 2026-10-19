@@ -1,0 +1,857 @@
+{
+  "schema_version": 1,
+  "domains": [
+    {
+      "id": "research",
+      "label": "Pesquisa e conhecimento",
+      "feature_ids": [
+        "academic_search",
+        "open_access",
+        "books",
+        "archives",
+        "references",
+        "computation"
+      ],
+      "groups": [
+        {
+          "id": "literature",
+          "label": "Literatura científica",
+          "feature_ids": [
+            "academic_search",
+            "open_access",
+            "references"
+          ]
+        },
+        {
+          "id": "books",
+          "label": "Livros e arquivos",
+          "feature_ids": [
+            "books",
+            "archives"
+          ]
+        },
+        {
+          "id": "knowledge",
+          "label": "Conhecimento e cálculo",
+          "feature_ids": [
+            "computation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "IA e assistentes",
+      "feature_ids": [
+        "chat_ai",
+        "local_llm",
+        "rag",
+        "ai_search",
+        "transcription",
+        "summarization"
+      ],
+      "groups": [
+        {
+          "id": "assistants",
+          "label": "Assistentes e pesquisa",
+          "feature_ids": [
+            "chat_ai",
+            "ai_search",
+            "summarization"
+          ]
+        },
+        {
+          "id": "local",
+          "label": "IA local e documentos",
+          "feature_ids": [
+            "local_llm",
+            "rag"
+          ]
+        },
+        {
+          "id": "speech",
+          "label": "Áudio e transcrição",
+          "feature_ids": [
+            "transcription"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "development",
+      "label": "Programação e desenvolvimento",
+      "feature_ids": [
+        "code_hosting",
+        "git_forge",
+        "api_testing",
+        "code_tools",
+        "regex",
+        "json_tools",
+        "shell",
+        "diagrams",
+        "documentation"
+      ],
+      "groups": [
+        {
+          "id": "hosting",
+          "label": "Código e repositórios",
+          "feature_ids": [
+            "code_hosting",
+            "git_forge"
+          ]
+        },
+        {
+          "id": "testing",
+          "label": "Testes e transformação",
+          "feature_ids": [
+            "api_testing",
+            "regex",
+            "json_tools",
+            "code_tools"
+          ]
+        },
+        {
+          "id": "workflow",
+          "label": "Terminal e documentação",
+          "feature_ids": [
+            "shell",
+            "documentation"
+          ]
+        },
+        {
+          "id": "visual",
+          "label": "Diagramas",
+          "feature_ids": [
+            "diagrams"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "label": "Imagem e design",
+      "feature_ids": [
+        "image_editing",
+        "vector_design",
+        "ui_design",
+        "image_compression",
+        "background_removal",
+        "mockups",
+        "illustration"
+      ],
+      "groups": [
+        {
+          "id": "editing",
+          "label": "Edição de imagem",
+          "feature_ids": [
+            "image_editing",
+            "background_removal",
+            "image_compression"
+          ]
+        },
+        {
+          "id": "creation",
+          "label": "Design e criação",
+          "feature_ids": [
+            "vector_design",
+            "ui_design",
+            "illustration"
+          ]
+        },
+        {
+          "id": "publishing",
+          "label": "Mockups e publicação",
+          "feature_ids": [
+            "mockups",
+            "social_media_assets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "label": "Vídeo e animação",
+      "feature_ids": [
+        "video_editing",
+        "video_generation",
+        "avatars",
+        "subtitles",
+        "screen_recording"
+      ],
+      "groups": [
+        {
+          "id": "generation",
+          "label": "Geração",
+          "feature_ids": [
+            "video_generation",
+            "avatars"
+          ]
+        },
+        {
+          "id": "editing",
+          "label": "Edição e legendagem",
+          "feature_ids": [
+            "video_editing",
+            "subtitles",
+            "screen_recording"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "label": "Segurança e privacidade",
+      "feature_ids": [
+        "breach_check",
+        "malware_scan",
+        "passwords",
+        "email_privacy",
+        "tracking_protection",
+        "privacy_guides"
+      ],
+      "groups": [
+        {
+          "id": "checks",
+          "label": "Verificações de segurança",
+          "feature_ids": [
+            "breach_check",
+            "malware_scan"
+          ]
+        },
+        {
+          "id": "protection",
+          "label": "Protecção e privacidade",
+          "feature_ids": [
+            "passwords",
+            "email_privacy",
+            "tracking_protection",
+            "privacy_guides"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "label": "Documentos e PDFs",
+      "feature_ids": [
+        "pdf_editing",
+        "pdf_conversion",
+        "ocr",
+        "document_conversion",
+        "writing"
+      ],
+      "groups": [
+        {
+          "id": "pdf",
+          "label": "PDF",
+          "feature_ids": [
+            "pdf_editing",
+            "pdf_conversion",
+            "ocr"
+          ]
+        },
+        {
+          "id": "writing",
+          "label": "Escrita e conversão",
+          "feature_ids": [
+            "document_conversion",
+            "writing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing",
+      "label": "Partilha e armazenamento",
+      "feature_ids": [
+        "file_transfer",
+        "cloud_storage",
+        "local_transfer",
+        "self_hosting"
+      ],
+      "groups": [
+        {
+          "id": "transfer",
+          "label": "Transferência",
+          "feature_ids": [
+            "file_transfer",
+            "local_transfer"
+          ]
+        },
+        {
+          "id": "storage",
+          "label": "Armazenamento",
+          "feature_ids": [
+            "cloud_storage",
+            "self_hosting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "label": "Áudio e música",
+      "feature_ids": [
+        "radio",
+        "music_discovery",
+        "music_streaming",
+        "music_metadata",
+        "ambient_audio",
+        "media_server"
+      ],
+      "groups": [
+        {
+          "id": "listen",
+          "label": "Ouvir",
+          "feature_ids": [
+            "radio",
+            "music_streaming",
+            "ambient_audio"
+          ]
+        },
+        {
+          "id": "discover",
+          "label": "Descobrir",
+          "feature_ids": [
+            "music_discovery",
+            "music_metadata"
+          ]
+        },
+        {
+          "id": "host",
+          "label": "Servidores multimédia",
+          "feature_ids": [
+            "media_server"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "label": "Línguas e comunicação",
+      "feature_ids": [
+        "translation",
+        "dictation",
+        "grammar",
+        "speech_to_text"
+      ],
+      "groups": [
+        {
+          "id": "translation",
+          "label": "Tradução e revisão",
+          "feature_ids": [
+            "translation",
+            "grammar"
+          ]
+        },
+        {
+          "id": "speech",
+          "label": "Voz e ditado",
+          "feature_ids": [
+            "dictation",
+            "speech_to_text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "label": "Organização e produtividade",
+      "feature_ids": [
+        "bookmarks",
+        "read_later",
+        "archiving",
+        "monitoring",
+        "automation"
+      ],
+      "groups": [
+        {
+          "id": "save",
+          "label": "Guardar e organizar",
+          "feature_ids": [
+            "bookmarks",
+            "read_later",
+            "archiving"
+          ]
+        },
+        {
+          "id": "watch",
+          "label": "Acompanhar alterações",
+          "feature_ids": [
+            "monitoring",
+            "automation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "label": "Internet e utilitários",
+      "feature_ids": [
+        "site_discovery",
+        "reverse_image_search",
+        "speed_test",
+        "outages",
+        "web_archive"
+      ],
+      "groups": [
+        {
+          "id": "discover",
+          "label": "Descoberta",
+          "feature_ids": [
+            "site_discovery",
+            "reverse_image_search",
+            "web_archive"
+          ]
+        },
+        {
+          "id": "diagnostics",
+          "label": "Diagnóstico",
+          "feature_ids": [
+            "speed_test",
+            "outages"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "label": "Cinema e entretenimento",
+      "feature_ids": [
+        "streaming_discovery",
+        "soundtracks",
+        "video_discovery"
+      ],
+      "groups": [
+        {
+          "id": "watch",
+          "label": "Filmes e séries",
+          "feature_ids": [
+            "streaming_discovery",
+            "video_discovery"
+          ]
+        },
+        {
+          "id": "music",
+          "label": "Música no cinema",
+          "feature_ids": [
+            "soundtracks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "label": "Redes e servidores",
+      "feature_ids": [
+        "uptime_monitoring",
+        "network_speed",
+        "self_hosting",
+        "git_forge"
+      ],
+      "groups": [
+        {
+          "id": "monitor",
+          "label": "Monitorização",
+          "feature_ids": [
+            "uptime_monitoring",
+            "network_speed"
+          ]
+        },
+        {
+          "id": "hosting",
+          "label": "Alojamento próprio",
+          "feature_ids": [
+            "self_hosting",
+            "git_forge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "label": "Educação e aprendizagem",
+      "feature_ids": [
+        "courses",
+        "open_access",
+        "books",
+        "academic_search"
+      ],
+      "groups": [
+        {
+          "id": "learn",
+          "label": "Aprendizagem",
+          "feature_ids": [
+            "courses",
+            "books",
+            "academic_search"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "label": "Negócios e marketing",
+      "feature_ids": [
+        "social_media_assets",
+        "presentations",
+        "mockups",
+        "automation"
+      ],
+      "groups": [
+        {
+          "id": "content",
+          "label": "Conteúdos e comunicação",
+          "feature_ids": [
+            "social_media_assets",
+            "presentations",
+            "mockups"
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "academic_search",
+      "label": "Pesquisa académica"
+    },
+    {
+      "id": "open_access",
+      "label": "Acesso aberto"
+    },
+    {
+      "id": "books",
+      "label": "Livros digitais"
+    },
+    {
+      "id": "archives",
+      "label": "Arquivos"
+    },
+    {
+      "id": "references",
+      "label": "Referências e bibliografia"
+    },
+    {
+      "id": "computation",
+      "label": "Cálculo e conhecimento"
+    },
+    {
+      "id": "chat_ai",
+      "label": "Assistentes IA"
+    },
+    {
+      "id": "local_llm",
+      "label": "Modelos IA locais"
+    },
+    {
+      "id": "rag",
+      "label": "Pesquisa em documentos (RAG)"
+    },
+    {
+      "id": "ai_search",
+      "label": "Pesquisa com IA"
+    },
+    {
+      "id": "transcription",
+      "label": "Transcrição"
+    },
+    {
+      "id": "summarization",
+      "label": "Resumos"
+    },
+    {
+      "id": "code_hosting",
+      "label": "Alojamento de código"
+    },
+    {
+      "id": "git_forge",
+      "label": "Servidores Git"
+    },
+    {
+      "id": "api_testing",
+      "label": "Teste de APIs"
+    },
+    {
+      "id": "code_tools",
+      "label": "Ferramentas de código"
+    },
+    {
+      "id": "regex",
+      "label": "Expressões regulares"
+    },
+    {
+      "id": "json_tools",
+      "label": "JSON"
+    },
+    {
+      "id": "shell",
+      "label": "Shell e comandos"
+    },
+    {
+      "id": "diagrams",
+      "label": "Diagramas"
+    },
+    {
+      "id": "documentation",
+      "label": "Documentação técnica"
+    },
+    {
+      "id": "image_editing",
+      "label": "Edição de imagem"
+    },
+    {
+      "id": "vector_design",
+      "label": "Desenho vectorial"
+    },
+    {
+      "id": "ui_design",
+      "label": "Design de interfaces"
+    },
+    {
+      "id": "image_compression",
+      "label": "Compressão de imagens"
+    },
+    {
+      "id": "background_removal",
+      "label": "Remoção de fundo"
+    },
+    {
+      "id": "mockups",
+      "label": "Mockups"
+    },
+    {
+      "id": "illustration",
+      "label": "Ilustração"
+    },
+    {
+      "id": "video_editing",
+      "label": "Edição de vídeo"
+    },
+    {
+      "id": "video_generation",
+      "label": "Geração de vídeo"
+    },
+    {
+      "id": "avatars",
+      "label": "Avatares falantes"
+    },
+    {
+      "id": "subtitles",
+      "label": "Legendas"
+    },
+    {
+      "id": "screen_recording",
+      "label": "Gravação de ecrã"
+    },
+    {
+      "id": "breach_check",
+      "label": "Verificar fugas de dados"
+    },
+    {
+      "id": "malware_scan",
+      "label": "Análise de ficheiros e URLs"
+    },
+    {
+      "id": "passwords",
+      "label": "Gestão de passwords"
+    },
+    {
+      "id": "email_privacy",
+      "label": "Privacidade de email"
+    },
+    {
+      "id": "tracking_protection",
+      "label": "Bloqueio de rastreio"
+    },
+    {
+      "id": "privacy_guides",
+      "label": "Guias de privacidade"
+    },
+    {
+      "id": "pdf_editing",
+      "label": "Edição de PDF"
+    },
+    {
+      "id": "pdf_conversion",
+      "label": "Conversão de PDF"
+    },
+    {
+      "id": "ocr",
+      "label": "Reconhecimento de texto (OCR)"
+    },
+    {
+      "id": "document_conversion",
+      "label": "Conversão de documentos"
+    },
+    {
+      "id": "writing",
+      "label": "Escrita e revisão"
+    },
+    {
+      "id": "file_transfer",
+      "label": "Transferência de ficheiros"
+    },
+    {
+      "id": "cloud_storage",
+      "label": "Armazenamento na nuvem"
+    },
+    {
+      "id": "local_transfer",
+      "label": "Transferência local"
+    },
+    {
+      "id": "self_hosting",
+      "label": "Alojamento próprio"
+    },
+    {
+      "id": "radio",
+      "label": "Rádio"
+    },
+    {
+      "id": "music_discovery",
+      "label": "Descoberta musical"
+    },
+    {
+      "id": "music_streaming",
+      "label": "Streaming de música"
+    },
+    {
+      "id": "music_metadata",
+      "label": "Metadados musicais"
+    },
+    {
+      "id": "ambient_audio",
+      "label": "Sons ambiente"
+    },
+    {
+      "id": "media_server",
+      "label": "Servidor multimédia"
+    },
+    {
+      "id": "translation",
+      "label": "Tradução"
+    },
+    {
+      "id": "dictation",
+      "label": "Ditado"
+    },
+    {
+      "id": "grammar",
+      "label": "Correcção gramatical"
+    },
+    {
+      "id": "speech_to_text",
+      "label": "Voz para texto"
+    },
+    {
+      "id": "bookmarks",
+      "label": "Marcadores"
+    },
+    {
+      "id": "read_later",
+      "label": "Ler mais tarde"
+    },
+    {
+      "id": "archiving",
+      "label": "Arquivo de páginas"
+    },
+    {
+      "id": "monitoring",
+      "label": "Monitorização"
+    },
+    {
+      "id": "automation",
+      "label": "Automação"
+    },
+    {
+      "id": "site_discovery",
+      "label": "Descoberta de sites e alternativas"
+    },
+    {
+      "id": "reverse_image_search",
+      "label": "Pesquisa inversa de imagem"
+    },
+    {
+      "id": "speed_test",
+      "label": "Teste de velocidade"
+    },
+    {
+      "id": "outages",
+      "label": "Falhas de serviços"
+    },
+    {
+      "id": "web_archive",
+      "label": "Arquivo web"
+    },
+    {
+      "id": "streaming_discovery",
+      "label": "Onde ver filmes e séries"
+    },
+    {
+      "id": "soundtracks",
+      "label": "Bandas sonoras"
+    },
+    {
+      "id": "video_discovery",
+      "label": "Descoberta de vídeos"
+    },
+    {
+      "id": "uptime_monitoring",
+      "label": "Monitorização de disponibilidade"
+    },
+    {
+      "id": "network_speed",
+      "label": "Velocidade de rede"
+    },
+    {
+      "id": "courses",
+      "label": "Cursos"
+    },
+    {
+      "id": "social_media_assets",
+      "label": "Materiais para redes sociais"
+    },
+    {
+      "id": "presentations",
+      "label": "Apresentações"
+    }
+  ],
+  "global_filters": {
+    "pricing": [
+      "free",
+      "freemium",
+      "paid",
+      "unknown"
+    ],
+    "license": [
+      "open_source",
+      "proprietary",
+      "mixed",
+      "unknown"
+    ],
+    "offline": [
+      "yes",
+      "no",
+      "partial",
+      "unknown"
+    ],
+    "self_hosted": [
+      "yes",
+      "no",
+      "unknown"
+    ],
+    "account_required": [
+      "yes",
+      "no",
+      "optional",
+      "unknown"
+    ]
+  },
+  "classification_rules": {
+    "multiple_domains": true,
+    "features_must_be_defined": true,
+    "unknown_is_not_no": true,
+    "empty_categories_hidden_by_default": true
+  }
+}

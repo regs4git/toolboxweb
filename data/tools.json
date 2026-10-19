@@ -1,0 +1,3306 @@
+{
+  "schema_version": 1,
+  "catalog_version": "0.1.1",
+  "tools": [
+    {
+      "id": "open-library",
+      "name": "Open Library",
+      "url": "https://openlibrary.org",
+      "description": "Catálogo aberto de livros e edições.",
+      "primary_domain": "research",
+      "domains": [
+        "research"
+      ],
+      "features": [
+        "books",
+        "references"
+      ],
+      "keywords": [
+        "open library",
+        "livros digitais",
+        "referências e bibliografia"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "project-gutenberg",
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org",
+      "description": "Livros digitais de domínio público.",
+      "primary_domain": "research",
+      "domains": [
+        "research"
+      ],
+      "features": [
+        "books",
+        "open_access"
+      ],
+      "keywords": [
+        "project gutenberg",
+        "acesso aberto",
+        "livros digitais"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "doaj",
+      "name": "DOAJ",
+      "url": "https://doaj.org",
+      "description": "Directório de revistas científicas de acesso aberto.",
+      "primary_domain": "research",
+      "domains": [
+        "research"
+      ],
+      "features": [
+        "academic_search",
+        "open_access"
+      ],
+      "keywords": [
+        "doaj",
+        "pesquisa académica",
+        "acesso aberto"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "google-search",
+      "name": "Google Search",
+      "url": "https://www.google.com",
+      "description": "Motor de pesquisa geral.",
+      "primary_domain": "web",
+      "domains": [
+        "web"
+      ],
+      "features": [
+        "site_discovery"
+      ],
+      "keywords": [
+        "google search",
+        "descoberta de sites e alternativas"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "open-culture",
+      "name": "Open Culture",
+      "url": "https://www.openculture.com",
+      "description": "Recursos culturais e educativos gratuitos.",
+      "primary_domain": "education",
+      "domains": [
+        "education",
+        "research"
+      ],
+      "features": [
+        "courses",
+        "books"
+      ],
+      "keywords": [
+        "open culture",
+        "livros digitais",
+        "cursos"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "wolfram-alpha",
+      "name": "Wolfram Alpha",
+      "url": "https://www.wolframalpha.com",
+      "description": "Motor computacional de conhecimento.",
+      "primary_domain": "research",
+      "domains": [
+        "research",
+        "education"
+      ],
+      "features": [
+        "computation"
+      ],
+      "keywords": [
+        "wolfram alpha",
+        "cálculo e conhecimento"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "elicit",
+      "name": "Elicit",
+      "url": "https://elicit.com",
+      "description": "Assistente de pesquisa de literatura científica.",
+      "primary_domain": "research",
+      "domains": [
+        "research"
+      ],
+      "features": [
+        "academic_search",
+        "ai_search"
+      ],
+      "keywords": [
+        "elicit",
+        "pesquisa académica",
+        "pesquisa com ia"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "url": "https://consensus.app",
+      "description": "Pesquisa de estudos científicos com IA.",
+      "primary_domain": "research",
+      "domains": [
+        "research"
+      ],
+      "features": [
+        "academic_search",
+        "ai_search"
+      ],
+      "keywords": [
+        "consensus",
+        "pesquisa académica",
+        "pesquisa com ia"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "description": "Assistente de IA para pesquisa, escrita e tarefas gerais.",
+      "primary_domain": "ai",
+      "domains": [
+        "ai"
+      ],
+      "features": [
+        "chat_ai",
+        "writing"
+      ],
+      "keywords": [
+        "chatgpt",
+        "assistentes ia",
+        "escrita e revisão"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "description": "Assistente de IA para análise e escrita.",
+      "primary_domain": "ai",
+      "domains": [
+        "ai"
+      ],
+      "features": [
+        "chat_ai",
+        "writing"
+      ],
+      "keywords": [
+        "claude",
+        "assistentes ia",
+        "escrita e revisão"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "photopea",
+      "name": "Photopea",
+      "url": "https://www.photopea.com",
+      "description": "Editor de imagens no browser.",
+      "primary_domain": "design",
+      "domains": [
+        "design"
+      ],
+      "features": [
+        "image_editing"
+      ],
+      "keywords": [
+        "photopea",
+        "edição de imagem"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "description": "Criação visual de materiais e apresentações.",
+      "primary_domain": "design",
+      "domains": [
+        "design",
+        "video"
+      ],
+      "features": [
+        "mockups",
+        "presentations",
+        "social_media_assets"
+      ],
+      "keywords": [
+        "canva",
+        "mockups",
+        "materiais para redes sociais",
+        "apresentações"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "remove-bg",
+      "name": "remove.bg",
+      "url": "https://www.remove.bg",
+      "description": "Remoção automática de fundos de imagem.",
+      "primary_domain": "design",
+      "domains": [
+        "design"
+      ],
+      "features": [
+        "background_removal"
+      ],
+      "keywords": [
+        "remove.bg",
+        "remoção de fundo"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "tinypng",
+      "name": "TinyPNG",
+      "url": "https://tinypng.com",
+      "description": "Compressão de imagens online.",
+      "primary_domain": "design",
+      "domains": [
+        "design"
+      ],
+      "features": [
+        "image_compression"
+      ],
+      "keywords": [
+        "tinypng",
+        "compressão de imagens"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "cleanup-pictures",
+      "name": "Cleanup.pictures",
+      "url": "https://cleanup.pictures",
+      "description": "Remoção de elementos indesejados em imagens.",
+      "primary_domain": "design",
+      "domains": [
+        "design"
+      ],
+      "features": [
+        "image_editing"
+      ],
+      "keywords": [
+        "cleanup.pictures",
+        "edição de imagem"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "url": "https://runwayml.com",
+      "description": "Criação e edição de vídeo com IA.",
+      "primary_domain": "video",
+      "domains": [
+        "video",
+        "design"
+      ],
+      "features": [
+        "video_generation",
+        "video_editing"
+      ],
+      "keywords": [
+        "runway",
+        "edição de vídeo",
+        "geração de vídeo"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com",
+      "description": "Alojamento e colaboração em repositórios Git.",
+      "primary_domain": "development",
+      "domains": [
+        "development",
+        "productivity"
+      ],
+      "features": [
+        "code_hosting",
+        "git_forge"
+      ],
+      "keywords": [
+        "github",
+        "alojamento de código",
+        "servidores git"
+      ],
+      "top": true,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "carbon",
+      "name": "Carbon",
+      "url": "https://carbon.now.sh",
+      "description": "Imagens estilizadas de excertos de código.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "code_tools",
+        "social_media_assets"
+      ],
+      "keywords": [
+        "carbon",
+        "ferramentas de código",
+        "materiais para redes sociais"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "phind",
+      "name": "Phind",
+      "url": "https://www.phind.com",
+      "description": "Pesquisa e assistência para programação.",
+      "primary_domain": "ai",
+      "domains": [
+        "development",
+        "ai"
+      ],
+      "features": [
+        "ai_search",
+        "code_tools"
+      ],
+      "keywords": [
+        "phind",
+        "pesquisa com ia",
+        "ferramentas de código"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "regex101",
+      "name": "regex101",
+      "url": "https://regex101.com",
+      "description": "Teste e explicação de expressões regulares.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "regex"
+      ],
+      "keywords": [
+        "regex101",
+        "expressões regulares"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "code-beautify",
+      "name": "Code Beautify",
+      "url": "https://codebeautify.org",
+      "description": "Formatadores e validadores de dados e código.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "code_tools",
+        "json_tools"
+      ],
+      "keywords": [
+        "code beautify",
+        "ferramentas de código",
+        "json"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "json-formatter",
+      "name": "JSON Formatter",
+      "url": "https://jsonformatter.org",
+      "description": "Formatação e validação de JSON.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "json_tools"
+      ],
+      "keywords": [
+        "json formatter",
+        "json"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "explainshell",
+      "name": "ExplainShell",
+      "url": "https://explainshell.com",
+      "description": "Explicação de comandos shell.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "shell"
+      ],
+      "keywords": [
+        "explainshell",
+        "shell e comandos"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "shots-so",
+      "name": "Shots.so",
+      "url": "https://shots.so",
+      "description": "Mockups para imagens e capturas de ecrã.",
+      "primary_domain": "design",
+      "domains": [
+        "design"
+      ],
+      "features": [
+        "mockups",
+        "social_media_assets"
+      ],
+      "keywords": [
+        "shots.so",
+        "mockups",
+        "materiais para redes sociais"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "alternativeto",
+      "name": "AlternativeTo",
+      "url": "https://alternativeto.net",
+      "description": "Descoberta de alternativas a aplicações e serviços.",
+      "primary_domain": "web",
+      "domains": [
+        "web"
+      ],
+      "features": [
+        "site_discovery"
+      ],
+      "keywords": [
+        "alternativeto",
+        "descoberta de sites e alternativas"
+      ],
+      "top": true,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "have-i-been-pwned",
+      "name": "Have I Been Pwned",
+      "url": "https://haveibeenpwned.com",
+      "description": "Verificação de endereços expostos em fugas de dados.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "breach_check"
+      ],
+      "keywords": [
+        "have i been pwned",
+        "verificar fugas de dados"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "virustotal",
+      "name": "VirusTotal",
+      "url": "https://www.virustotal.com",
+      "description": "Análise de ficheiros e URLs com vários motores.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "malware_scan"
+      ],
+      "keywords": [
+        "virustotal",
+        "análise de ficheiros e urls"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "tos-dr",
+      "name": "ToS;DR",
+      "url": "https://tosdr.org",
+      "description": "Resumo e avaliação de termos de serviços online.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "privacy_guides"
+      ],
+      "keywords": [
+        "tos;dr",
+        "guias de privacidade"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "temp-mail",
+      "name": "Temp Mail",
+      "url": "https://temp-mail.org",
+      "description": "Endereços de email temporários.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "email_privacy"
+      ],
+      "keywords": [
+        "temp mail",
+        "privacidade de email"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "proton-mail",
+      "name": "Proton Mail",
+      "url": "https://proton.me/mail",
+      "description": "Serviço de email centrado na privacidade.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "email_privacy"
+      ],
+      "keywords": [
+        "proton mail",
+        "privacidade de email"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "file-io",
+      "name": "file.io",
+      "url": "https://www.file.io",
+      "description": "Partilha temporária de ficheiros por ligação.",
+      "primary_domain": "sharing",
+      "domains": [
+        "sharing"
+      ],
+      "features": [
+        "file_transfer"
+      ],
+      "keywords": [
+        "file.io",
+        "transferência de ficheiros"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "wetransfer",
+      "name": "WeTransfer",
+      "url": "https://wetransfer.com",
+      "description": "Transferência de ficheiros através da web.",
+      "primary_domain": "sharing",
+      "domains": [
+        "sharing"
+      ],
+      "features": [
+        "file_transfer"
+      ],
+      "keywords": [
+        "wetransfer",
+        "transferência de ficheiros"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "radio-garden",
+      "name": "Radio Garden",
+      "url": "https://radio.garden",
+      "description": "Explorar rádios do mundo num globo interactivo.",
+      "primary_domain": "audio",
+      "domains": [
+        "audio"
+      ],
+      "features": [
+        "radio",
+        "music_discovery"
+      ],
+      "keywords": [
+        "radio garden",
+        "rádio",
+        "descoberta musical"
+      ],
+      "top": true,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "music-map",
+      "name": "Music-Map",
+      "url": "https://www.music-map.com",
+      "description": "Descoberta de artistas musicalmente relacionados.",
+      "primary_domain": "audio",
+      "domains": [
+        "audio"
+      ],
+      "features": [
+        "music_discovery"
+      ],
+      "keywords": [
+        "music-map",
+        "descoberta musical"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "tunefind",
+      "name": "TuneFind",
+      "url": "https://www.tunefind.com",
+      "description": "Identificação de músicas em filmes e séries.",
+      "primary_domain": "entertainment",
+      "domains": [
+        "entertainment"
+      ],
+      "features": [
+        "soundtracks"
+      ],
+      "keywords": [
+        "tunefind",
+        "bandas sonoras"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "url": "https://open.spotify.com",
+      "description": "Streaming e descoberta de música.",
+      "primary_domain": "audio",
+      "domains": [
+        "audio"
+      ],
+      "features": [
+        "music_streaming",
+        "music_discovery"
+      ],
+      "keywords": [
+        "spotify",
+        "descoberta musical",
+        "streaming de música"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "mynoise",
+      "name": "myNoise",
+      "url": "https://mynoise.net",
+      "description": "Geradores ajustáveis de ambientes sonoros.",
+      "primary_domain": "audio",
+      "domains": [
+        "audio"
+      ],
+      "features": [
+        "ambient_audio"
+      ],
+      "keywords": [
+        "mynoise",
+        "sons ambiente"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "dictation-io",
+      "name": "Dictation.io",
+      "url": "https://dictation.io",
+      "description": "Ditado de texto no browser.",
+      "primary_domain": "language",
+      "domains": [
+        "language"
+      ],
+      "features": [
+        "dictation",
+        "speech_to_text"
+      ],
+      "keywords": [
+        "dictation.io",
+        "ditado",
+        "voz para texto"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "url": "https://www.deepl.com",
+      "description": "Tradução e apoio à escrita.",
+      "primary_domain": "language",
+      "domains": [
+        "language"
+      ],
+      "features": [
+        "translation",
+        "writing"
+      ],
+      "keywords": [
+        "deepl",
+        "escrita e revisão",
+        "tradução"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "justwatch",
+      "name": "JustWatch",
+      "url": "https://www.justwatch.com",
+      "description": "Pesquisa de disponibilidade de filmes e séries.",
+      "primary_domain": "entertainment",
+      "domains": [
+        "entertainment"
+      ],
+      "features": [
+        "streaming_discovery"
+      ],
+      "keywords": [
+        "justwatch",
+        "onde ver filmes e séries"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "internet-archive",
+      "name": "Internet Archive",
+      "url": "https://archive.org",
+      "description": "Arquivo de conteúdos digitais e páginas web.",
+      "primary_domain": "research",
+      "domains": [
+        "research",
+        "web"
+      ],
+      "features": [
+        "archives",
+        "web_archive",
+        "books"
+      ],
+      "keywords": [
+        "internet archive",
+        "livros digitais",
+        "arquivos",
+        "arquivo web"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "similarsites",
+      "name": "SimilarSites",
+      "url": "https://www.similarsites.com",
+      "description": "Encontrar websites semelhantes.",
+      "primary_domain": "web",
+      "domains": [
+        "web"
+      ],
+      "features": [
+        "site_discovery"
+      ],
+      "keywords": [
+        "similarsites",
+        "descoberta de sites e alternativas"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "summarize-tech",
+      "name": "summarize.tech",
+      "url": "https://www.summarize.tech",
+      "description": "Resumos automáticos de vídeos.",
+      "primary_domain": "ai",
+      "domains": [
+        "ai"
+      ],
+      "features": [
+        "summarization",
+        "video_discovery"
+      ],
+      "keywords": [
+        "summarize.tech",
+        "resumos",
+        "descoberta de vídeos"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "raindrop-io",
+      "name": "Raindrop.io",
+      "url": "https://raindrop.io",
+      "description": "Gestor de marcadores e colecções.",
+      "primary_domain": "productivity",
+      "domains": [
+        "productivity"
+      ],
+      "features": [
+        "bookmarks"
+      ],
+      "keywords": [
+        "raindrop.io",
+        "marcadores"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "downdetector",
+      "name": "Downdetector",
+      "url": "https://downdetector.com",
+      "description": "Relatos de falhas de serviços online.",
+      "primary_domain": "web",
+      "domains": [
+        "web"
+      ],
+      "features": [
+        "outages"
+      ],
+      "keywords": [
+        "downdetector",
+        "falhas de serviços"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "tineye",
+      "name": "TinEye",
+      "url": "https://tineye.com",
+      "description": "Pesquisa inversa de imagens.",
+      "primary_domain": "web",
+      "domains": [
+        "web"
+      ],
+      "features": [
+        "reverse_image_search"
+      ],
+      "keywords": [
+        "tineye",
+        "pesquisa inversa de imagem"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "fast-com",
+      "name": "Fast.com",
+      "url": "https://fast.com",
+      "description": "Teste rápido de velocidade de Internet.",
+      "primary_domain": "web",
+      "domains": [
+        "web"
+      ],
+      "features": [
+        "speed_test"
+      ],
+      "keywords": [
+        "fast.com",
+        "teste de velocidade"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "pdf24-tools",
+      "name": "PDF24 Tools",
+      "url": "https://tools.pdf24.org",
+      "description": "Ferramentas online para ficheiros PDF.",
+      "primary_domain": "documents",
+      "domains": [
+        "documents"
+      ],
+      "features": [
+        "pdf_editing",
+        "pdf_conversion"
+      ],
+      "keywords": [
+        "pdf24 tools",
+        "edição de pdf",
+        "conversão de pdf"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "ilovepdf",
+      "name": "iLovePDF",
+      "url": "https://www.ilovepdf.com",
+      "description": "Ferramentas de conversão e edição de PDF.",
+      "primary_domain": "documents",
+      "domains": [
+        "documents"
+      ],
+      "features": [
+        "pdf_editing",
+        "pdf_conversion"
+      ],
+      "keywords": [
+        "ilovepdf",
+        "edição de pdf",
+        "conversão de pdf"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "speedtest",
+      "name": "Speedtest",
+      "url": "https://www.speedtest.net",
+      "description": "Teste de velocidade e latência da ligação.",
+      "primary_domain": "web",
+      "domains": [
+        "web"
+      ],
+      "features": [
+        "speed_test"
+      ],
+      "keywords": [
+        "speedtest",
+        "teste de velocidade"
+      ],
+      "top": false,
+      "source_group": "original",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "google-scholar",
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com",
+      "description": "Pesquisa académica e citações.",
+      "primary_domain": "research",
+      "domains": [
+        "research"
+      ],
+      "features": [
+        "academic_search"
+      ],
+      "keywords": [
+        "google scholar",
+        "pesquisa académica"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org",
+      "description": "Pesquisa científica e descoberta de artigos.",
+      "primary_domain": "research",
+      "domains": [
+        "research"
+      ],
+      "features": [
+        "academic_search"
+      ],
+      "keywords": [
+        "semantic scholar",
+        "pesquisa académica"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "url": "https://openalex.org",
+      "description": "Catálogo aberto de investigação científica.",
+      "primary_domain": "research",
+      "domains": [
+        "research"
+      ],
+      "features": [
+        "academic_search",
+        "open_access"
+      ],
+      "keywords": [
+        "openalex",
+        "pesquisa académica",
+        "acesso aberto"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "zotero",
+      "name": "Zotero",
+      "url": "https://www.zotero.org",
+      "description": "Gestor de referências bibliográficas.",
+      "primary_domain": "research",
+      "domains": [
+        "research",
+        "productivity"
+      ],
+      "features": [
+        "references"
+      ],
+      "keywords": [
+        "zotero",
+        "referências e bibliografia"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "url": "https://ollama.com",
+      "description": "Execução local de modelos de linguagem.",
+      "primary_domain": "ai",
+      "domains": [
+        "ai"
+      ],
+      "features": [
+        "local_llm"
+      ],
+      "keywords": [
+        "ollama",
+        "modelos ia locais"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "url": "https://openwebui.com",
+      "description": "Interface web para modelos de IA, incluindo locais.",
+      "primary_domain": "ai",
+      "domains": [
+        "ai",
+        "development"
+      ],
+      "features": [
+        "local_llm",
+        "chat_ai"
+      ],
+      "keywords": [
+        "open webui",
+        "assistentes ia",
+        "modelos ia locais"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "anythingllm",
+      "name": "AnythingLLM",
+      "url": "https://anythingllm.com",
+      "description": "Conversação e pesquisa sobre documentos com IA.",
+      "primary_domain": "ai",
+      "domains": [
+        "ai",
+        "development"
+      ],
+      "features": [
+        "rag",
+        "local_llm"
+      ],
+      "keywords": [
+        "anythingllm",
+        "modelos ia locais",
+        "pesquisa em documentos (rag)"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "llama-cpp",
+      "name": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "Motor open-source para inferência local de LLMs.",
+      "primary_domain": "ai",
+      "domains": [
+        "ai"
+      ],
+      "features": [
+        "local_llm"
+      ],
+      "keywords": [
+        "llama.cpp",
+        "modelos ia locais"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper",
+      "url": "https://github.com/openai/whisper",
+      "description": "Reconhecimento automático de fala.",
+      "primary_domain": "ai",
+      "domains": [
+        "ai",
+        "language"
+      ],
+      "features": [
+        "transcription",
+        "speech_to_text"
+      ],
+      "keywords": [
+        "whisper",
+        "transcrição",
+        "voz para texto"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "codeberg",
+      "name": "Codeberg",
+      "url": "https://codeberg.org",
+      "description": "Alojamento comunitário de código Git.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "code_hosting",
+        "git_forge"
+      ],
+      "keywords": [
+        "codeberg",
+        "alojamento de código",
+        "servidores git"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "forgejo",
+      "name": "Forgejo",
+      "url": "https://forgejo.org",
+      "description": "Plataforma Git para alojamento próprio.",
+      "primary_domain": "development",
+      "domains": [
+        "development",
+        "infrastructure"
+      ],
+      "features": [
+        "git_forge",
+        "self_hosting"
+      ],
+      "keywords": [
+        "forgejo",
+        "servidores git",
+        "alojamento próprio"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "hoppscotch",
+      "name": "Hoppscotch",
+      "url": "https://hoppscotch.io",
+      "description": "Cliente de APIs com interface web.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "api_testing"
+      ],
+      "keywords": [
+        "hoppscotch",
+        "teste de apis"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "url": "https://www.usebruno.com",
+      "description": "Cliente de APIs com colecções em ficheiros locais.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "api_testing"
+      ],
+      "keywords": [
+        "bruno",
+        "teste de apis"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "transform-tools",
+      "name": "transform.tools",
+      "url": "https://transform.tools",
+      "description": "Transformações entre formatos de código e dados.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "code_tools",
+        "json_tools"
+      ],
+      "keywords": [
+        "transform.tools",
+        "ferramentas de código",
+        "json"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "json-crack",
+      "name": "JSON Crack",
+      "url": "https://jsoncrack.com",
+      "description": "Visualização de estruturas JSON.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "json_tools",
+        "diagrams"
+      ],
+      "keywords": [
+        "json crack",
+        "json",
+        "diagramas"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "excalidraw",
+      "name": "Excalidraw",
+      "url": "https://excalidraw.com",
+      "description": "Quadro colaborativo e diagramas rápidos.",
+      "primary_domain": "design",
+      "domains": [
+        "development",
+        "design"
+      ],
+      "features": [
+        "diagrams"
+      ],
+      "keywords": [
+        "excalidraw",
+        "diagramas"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "mermaid",
+      "name": "Mermaid",
+      "url": "https://mermaid.js.org",
+      "description": "Diagramas definidos a partir de texto.",
+      "primary_domain": "development",
+      "domains": [
+        "development",
+        "design"
+      ],
+      "features": [
+        "diagrams"
+      ],
+      "keywords": [
+        "mermaid",
+        "diagramas"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "shellcheck",
+      "name": "ShellCheck",
+      "url": "https://www.shellcheck.net",
+      "description": "Análise estática de scripts shell.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "shell",
+        "code_tools"
+      ],
+      "keywords": [
+        "shellcheck",
+        "ferramentas de código",
+        "shell e comandos"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "devdocs",
+      "name": "DevDocs",
+      "url": "https://devdocs.io",
+      "description": "Documentação técnica pesquisável.",
+      "primary_domain": "development",
+      "domains": [
+        "development"
+      ],
+      "features": [
+        "documentation"
+      ],
+      "keywords": [
+        "devdocs",
+        "documentação técnica"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "penpot",
+      "name": "Penpot",
+      "url": "https://penpot.app",
+      "description": "Design e prototipagem de interfaces.",
+      "primary_domain": "design",
+      "domains": [
+        "design",
+        "development"
+      ],
+      "features": [
+        "ui_design",
+        "vector_design"
+      ],
+      "keywords": [
+        "penpot",
+        "desenho vectorial",
+        "design de interfaces"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "gimp",
+      "name": "GIMP",
+      "url": "https://www.gimp.org",
+      "description": "Editor de imagens open-source.",
+      "primary_domain": "design",
+      "domains": [
+        "design"
+      ],
+      "features": [
+        "image_editing"
+      ],
+      "keywords": [
+        "gimp",
+        "edição de imagem"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "inkscape",
+      "name": "Inkscape",
+      "url": "https://inkscape.org",
+      "description": "Editor vectorial open-source.",
+      "primary_domain": "design",
+      "domains": [
+        "design"
+      ],
+      "features": [
+        "vector_design"
+      ],
+      "keywords": [
+        "inkscape",
+        "desenho vectorial"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "krita",
+      "name": "Krita",
+      "url": "https://krita.org",
+      "description": "Pintura e ilustração digital.",
+      "primary_domain": "design",
+      "domains": [
+        "design"
+      ],
+      "features": [
+        "illustration",
+        "image_editing"
+      ],
+      "keywords": [
+        "krita",
+        "edição de imagem",
+        "ilustração"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "squoosh",
+      "name": "Squoosh",
+      "url": "https://squoosh.app",
+      "description": "Compressão e conversão de imagens no browser.",
+      "primary_domain": "design",
+      "domains": [
+        "design",
+        "web"
+      ],
+      "features": [
+        "image_compression"
+      ],
+      "keywords": [
+        "squoosh",
+        "compressão de imagens"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "url": "https://www.blender.org",
+      "description": "Criação 3D e edição de vídeo.",
+      "primary_domain": "design",
+      "domains": [
+        "video",
+        "design"
+      ],
+      "features": [
+        "illustration",
+        "video_editing"
+      ],
+      "keywords": [
+        "blender",
+        "ilustração",
+        "edição de vídeo"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "kdenlive",
+      "name": "Kdenlive",
+      "url": "https://kdenlive.org",
+      "description": "Editor de vídeo livre.",
+      "primary_domain": "video",
+      "domains": [
+        "video",
+        "design"
+      ],
+      "features": [
+        "video_editing"
+      ],
+      "keywords": [
+        "kdenlive",
+        "edição de vídeo"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "url": "https://bitwarden.com",
+      "description": "Gestão de palavras-passe.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "passwords"
+      ],
+      "keywords": [
+        "bitwarden",
+        "gestão de passwords"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "keepassxc",
+      "name": "KeePassXC",
+      "url": "https://keepassxc.org",
+      "description": "Gestor local de palavras-passe open-source.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "passwords"
+      ],
+      "keywords": [
+        "keepassxc",
+        "gestão de passwords"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "simplelogin",
+      "name": "SimpleLogin",
+      "url": "https://simplelogin.io",
+      "description": "Aliases de email para proteger endereços pessoais.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "email_privacy"
+      ],
+      "keywords": [
+        "simplelogin",
+        "privacidade de email"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "mullvad",
+      "name": "Mullvad",
+      "url": "https://mullvad.net",
+      "description": "Serviço VPN centrado na privacidade.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "tracking_protection"
+      ],
+      "keywords": [
+        "mullvad",
+        "bloqueio de rastreio"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "privacy-guides",
+      "name": "Privacy Guides",
+      "url": "https://www.privacyguides.org",
+      "description": "Recomendações sobre privacidade digital.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "privacy_guides"
+      ],
+      "keywords": [
+        "privacy guides",
+        "guias de privacidade"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "url": "https://www.mozilla.org/firefox/",
+      "description": "Browser com funcionalidades de privacidade.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "tracking_protection"
+      ],
+      "keywords": [
+        "firefox",
+        "bloqueio de rastreio"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "ublock-origin",
+      "name": "uBlock Origin",
+      "url": "https://github.com/gorhill/uBlock",
+      "description": "Extensão de bloqueio de conteúdos e rastreadores.",
+      "primary_domain": "privacy",
+      "domains": [
+        "privacy"
+      ],
+      "features": [
+        "tracking_protection"
+      ],
+      "keywords": [
+        "ublock origin",
+        "bloqueio de rastreio"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "stirling-pdf",
+      "name": "Stirling PDF",
+      "url": "https://www.stirlingpdf.com",
+      "description": "Ferramentas PDF com opção de alojamento próprio.",
+      "primary_domain": "documents",
+      "domains": [
+        "documents",
+        "infrastructure"
+      ],
+      "features": [
+        "pdf_editing",
+        "pdf_conversion",
+        "ocr",
+        "self_hosting"
+      ],
+      "keywords": [
+        "stirling pdf",
+        "edição de pdf",
+        "conversão de pdf",
+        "reconhecimento de texto (ocr)",
+        "alojamento próprio"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "libreoffice",
+      "name": "LibreOffice",
+      "url": "https://www.libreoffice.org",
+      "description": "Suite de produtividade livre.",
+      "primary_domain": "documents",
+      "domains": [
+        "documents",
+        "productivity"
+      ],
+      "features": [
+        "document_conversion",
+        "writing"
+      ],
+      "keywords": [
+        "libreoffice",
+        "conversão de documentos",
+        "escrita e revisão"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "qpdf",
+      "name": "qpdf",
+      "url": "https://qpdf.sourceforge.io",
+      "description": "Ferramenta de linha de comandos para PDF.",
+      "primary_domain": "documents",
+      "domains": [
+        "documents"
+      ],
+      "features": [
+        "pdf_editing"
+      ],
+      "keywords": [
+        "qpdf",
+        "edição de pdf"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "ocrmypdf",
+      "name": "OCRmyPDF",
+      "url": "https://ocrmypdf.readthedocs.io",
+      "description": "Adicionar camada OCR a PDFs digitalizados.",
+      "primary_domain": "documents",
+      "domains": [
+        "documents"
+      ],
+      "features": [
+        "ocr",
+        "pdf_editing"
+      ],
+      "keywords": [
+        "ocrmypdf",
+        "edição de pdf",
+        "reconhecimento de texto (ocr)"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "pandoc",
+      "name": "Pandoc",
+      "url": "https://pandoc.org",
+      "description": "Conversor de formatos de documentos.",
+      "primary_domain": "documents",
+      "domains": [
+        "documents",
+        "development"
+      ],
+      "features": [
+        "document_conversion"
+      ],
+      "keywords": [
+        "pandoc",
+        "conversão de documentos"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "swisstransfer",
+      "name": "SwissTransfer",
+      "url": "https://www.swisstransfer.com",
+      "description": "Partilha de ficheiros por ligação.",
+      "primary_domain": "sharing",
+      "domains": [
+        "sharing"
+      ],
+      "features": [
+        "file_transfer"
+      ],
+      "keywords": [
+        "swisstransfer",
+        "transferência de ficheiros"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "wormhole",
+      "name": "Wormhole",
+      "url": "https://wormhole.app",
+      "description": "Transferência de ficheiros com ligação temporária.",
+      "primary_domain": "sharing",
+      "domains": [
+        "sharing"
+      ],
+      "features": [
+        "file_transfer"
+      ],
+      "keywords": [
+        "wormhole",
+        "transferência de ficheiros"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "localsend",
+      "name": "LocalSend",
+      "url": "https://localsend.org",
+      "description": "Transferência local entre dispositivos.",
+      "primary_domain": "sharing",
+      "domains": [
+        "sharing"
+      ],
+      "features": [
+        "local_transfer"
+      ],
+      "keywords": [
+        "localsend",
+        "transferência local"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "nextcloud",
+      "name": "Nextcloud",
+      "url": "https://nextcloud.com",
+      "description": "Nuvem pessoal com alojamento próprio.",
+      "primary_domain": "sharing",
+      "domains": [
+        "sharing",
+        "productivity"
+      ],
+      "features": [
+        "cloud_storage",
+        "self_hosting"
+      ],
+      "keywords": [
+        "nextcloud",
+        "armazenamento na nuvem",
+        "alojamento próprio"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "musicbrainz",
+      "name": "MusicBrainz",
+      "url": "https://musicbrainz.org",
+      "description": "Base aberta de metadados musicais.",
+      "primary_domain": "audio",
+      "domains": [
+        "audio"
+      ],
+      "features": [
+        "music_metadata"
+      ],
+      "keywords": [
+        "musicbrainz",
+        "metadados musicais"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "listenbrainz",
+      "name": "ListenBrainz",
+      "url": "https://listenbrainz.org",
+      "description": "Registo e descoberta de hábitos musicais.",
+      "primary_domain": "audio",
+      "domains": [
+        "audio"
+      ],
+      "features": [
+        "music_discovery",
+        "music_metadata"
+      ],
+      "keywords": [
+        "listenbrainz",
+        "descoberta musical",
+        "metadados musicais"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "last-fm",
+      "name": "Last.fm",
+      "url": "https://www.last.fm",
+      "description": "Descoberta e histórico de audição musical.",
+      "primary_domain": "audio",
+      "domains": [
+        "audio"
+      ],
+      "features": [
+        "music_discovery"
+      ],
+      "keywords": [
+        "last.fm",
+        "descoberta musical"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "jellyfin",
+      "name": "Jellyfin",
+      "url": "https://jellyfin.org",
+      "description": "Servidor multimédia open-source.",
+      "primary_domain": "audio",
+      "domains": [
+        "audio",
+        "entertainment"
+      ],
+      "features": [
+        "media_server",
+        "self_hosting"
+      ],
+      "keywords": [
+        "jellyfin",
+        "alojamento próprio",
+        "servidor multimédia"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "navidrome",
+      "name": "Navidrome",
+      "url": "https://www.navidrome.org",
+      "description": "Servidor de música pessoal.",
+      "primary_domain": "audio",
+      "domains": [
+        "audio",
+        "entertainment"
+      ],
+      "features": [
+        "media_server",
+        "self_hosting"
+      ],
+      "keywords": [
+        "navidrome",
+        "alojamento próprio",
+        "servidor multimédia"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "radio-browser",
+      "name": "Radio Browser",
+      "url": "https://www.radio-browser.info",
+      "description": "Directório comunitário de rádios online.",
+      "primary_domain": "audio",
+      "domains": [
+        "audio"
+      ],
+      "features": [
+        "radio"
+      ],
+      "keywords": [
+        "radio browser",
+        "rádio"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "languagetool",
+      "name": "LanguageTool",
+      "url": "https://languagetool.org",
+      "description": "Revisão ortográfica e gramatical.",
+      "primary_domain": "language",
+      "domains": [
+        "language"
+      ],
+      "features": [
+        "grammar",
+        "writing"
+      ],
+      "keywords": [
+        "languagetool",
+        "escrita e revisão",
+        "correcção gramatical"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "argos-translate",
+      "name": "Argos Translate",
+      "url": "https://www.argosopentech.com",
+      "description": "Tradução automática open-source.",
+      "primary_domain": "language",
+      "domains": [
+        "language"
+      ],
+      "features": [
+        "translation"
+      ],
+      "keywords": [
+        "argos translate",
+        "tradução"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "whisper-cpp",
+      "name": "whisper.cpp",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "description": "Transcrição local baseada em Whisper.",
+      "primary_domain": "ai",
+      "domains": [
+        "language",
+        "ai"
+      ],
+      "features": [
+        "speech_to_text",
+        "transcription"
+      ],
+      "keywords": [
+        "whisper.cpp",
+        "transcrição",
+        "voz para texto"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "karakeep",
+      "name": "Karakeep",
+      "url": "https://karakeep.app",
+      "description": "Gestão e arquivo pessoal de links.",
+      "primary_domain": "productivity",
+      "domains": [
+        "productivity"
+      ],
+      "features": [
+        "bookmarks",
+        "archiving",
+        "self_hosting"
+      ],
+      "keywords": [
+        "karakeep",
+        "alojamento próprio",
+        "marcadores",
+        "arquivo de páginas"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "wallabag",
+      "name": "Wallabag",
+      "url": "https://wallabag.org",
+      "description": "Guardar artigos para leitura posterior.",
+      "primary_domain": "productivity",
+      "domains": [
+        "productivity"
+      ],
+      "features": [
+        "read_later",
+        "self_hosting"
+      ],
+      "keywords": [
+        "wallabag",
+        "alojamento próprio",
+        "ler mais tarde"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "archivebox",
+      "name": "ArchiveBox",
+      "url": "https://archivebox.io",
+      "description": "Arquivo pessoal de páginas web.",
+      "primary_domain": "productivity",
+      "domains": [
+        "productivity"
+      ],
+      "features": [
+        "archiving",
+        "self_hosting"
+      ],
+      "keywords": [
+        "archivebox",
+        "alojamento próprio",
+        "arquivo de páginas"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "changedetection-io",
+      "name": "changedetection.io",
+      "url": "https://changedetection.io",
+      "description": "Monitorização de alterações em websites.",
+      "primary_domain": "productivity",
+      "domains": [
+        "productivity",
+        "infrastructure"
+      ],
+      "features": [
+        "monitoring",
+        "self_hosting"
+      ],
+      "keywords": [
+        "changedetection.io",
+        "alojamento próprio",
+        "monitorização"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "open-source-alternative",
+      "name": "Open Source Alternative",
+      "url": "https://www.opensourcealternative.to",
+      "description": "Directório de alternativas open-source.",
+      "primary_domain": "web",
+      "domains": [
+        "web"
+      ],
+      "features": [
+        "site_discovery"
+      ],
+      "keywords": [
+        "open source alternative",
+        "descoberta de sites e alternativas"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "cloudflare-speed-test",
+      "name": "Cloudflare Speed Test",
+      "url": "https://speed.cloudflare.com",
+      "description": "Teste de ligação e qualidade da rede.",
+      "primary_domain": "web",
+      "domains": [
+        "web",
+        "infrastructure"
+      ],
+      "features": [
+        "speed_test"
+      ],
+      "keywords": [
+        "cloudflare speed test",
+        "teste de velocidade"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "librespeed",
+      "name": "LibreSpeed",
+      "url": "https://librespeed.org",
+      "description": "Teste de velocidade de rede open-source.",
+      "primary_domain": "infrastructure",
+      "domains": [
+        "infrastructure",
+        "web"
+      ],
+      "features": [
+        "network_speed",
+        "self_hosting"
+      ],
+      "keywords": [
+        "librespeed",
+        "alojamento próprio",
+        "velocidade de rede"
+      ],
+      "top": false,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    },
+    {
+      "id": "uptime-kuma",
+      "name": "Uptime Kuma",
+      "url": "https://uptime.kuma.pet",
+      "description": "Monitorização de serviços com alojamento próprio.",
+      "primary_domain": "infrastructure",
+      "domains": [
+        "infrastructure",
+        "productivity"
+      ],
+      "features": [
+        "uptime_monitoring",
+        "self_hosting"
+      ],
+      "keywords": [
+        "uptime kuma",
+        "alojamento próprio",
+        "monitorização de disponibilidade"
+      ],
+      "top": true,
+      "source_group": "curated",
+      "pricing": "unknown",
+      "license": "unknown",
+      "offline": "unknown",
+      "self_hosted": "unknown",
+      "account_required": "unknown",
+      "verification": {
+        "status": "pending",
+        "checked_at": null
+      },
+      "added_at": "2026-10-19"
+    }
+  ]
+}
