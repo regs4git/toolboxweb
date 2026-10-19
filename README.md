@@ -1,4 +1,4 @@
-# ToolBox — Beta v0.2.0 (Fase 2)
+# ToolBoxWeb — Beta v0.3.0 (Fase 2)
 
 Catálogo responsivo de 109 ferramentas e websites, baseado na taxonomia e catálogo da Fase 1 v0.1.1.
 
@@ -21,8 +21,8 @@ Publicar o conteúdo desta pasta na raiz do repositório e activar **Settings > 
 - Início com categorias e selecção Top
 - Explorar e pesquisar nome, descrição, keywords e funcionalidades
 - Filtros por domínio e funcionalidades, exactos ou aproximados
-- Vista grelha, lista e compacta; ordenação
-- Favoritos persistentes, exportação e importação
+- Vista grelha, lista (predefinida) e compacta; ordenação, incluindo favoritos primeiro
+- Favoritos com estrela em cada ferramenta e filtro no catálogo; exportação e importação
 - Tema claro/escuro/sistema
 - Links externos seguros, abertos em novo separador
 - Fallback offline limitado ao catálogo previamente guardado, quando a página já está disponível no browser
@@ -38,3 +38,11 @@ O catálogo é `data/tools.json`, a classificação em `data/taxonomy.json`. Con
 ## Limitações conhecidas
 
 Os atributos comerciais do catálogo permanecem por verificar. O armazenamento local pode ser eliminado pelo browser; exporta os favoritos para cópia de segurança. A pesquisa não usa IA.
+
+## Alterações v0.3.0
+
+- Nome ToolBoxWeb no interface, título e descrição.
+- Removido separador Favoritos; estrela e filtro disponíveis no catálogo.
+- Layout mais compacto, títulos redundantes eliminados, pesquisa em destaque.
+- Painel de filtros recolhido por defeito em todos os ecrãs.
+- Conservadas as chaves de armazenamento da v0.2.0 para não perder favoritos.
